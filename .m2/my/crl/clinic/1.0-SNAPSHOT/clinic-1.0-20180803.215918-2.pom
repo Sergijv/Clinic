@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>my.crl</groupId>
-    <artifactId>Clinic</artifactId>
+    <artifactId>clinic</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>entity</module>
         <module>dto</module>
         <module>repo</module>
         <module>service</module>
         <module>config</module>
         <module>controller</module>
     </modules>
+
     <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
